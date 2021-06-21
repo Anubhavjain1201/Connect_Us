@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Connect Us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_do_you_want_to_talk_about">What do you want to talk about?</string>
+    <string name="post">POST</string>
+    <string name="logout">Logout</string>
+</resources>
