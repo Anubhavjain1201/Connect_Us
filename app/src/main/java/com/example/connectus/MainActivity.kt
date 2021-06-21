@@ -66,11 +66,7 @@ class MainActivity : AppCompatActivity(), IPostAdapter {
     private fun signOut() {
 
         //Sign out from firebase
-        Firebase.auth.signOut()     // --> This will only sign the user out from firebase and not from google
-                                    //     so the next time the user signs in, it will not show the account chooser dialog box
-                                    //     because we haven't signed out from google.
-
-        // So sign out from google as well
+        Firebase.auth.signOut()
 
         //sign out from google account
         GlobalScope.launch(Dispatchers.IO) {
